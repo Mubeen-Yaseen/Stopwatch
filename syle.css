@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stopwatch{
+    width: 35vw;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/background.png);
+    background-size:cover;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 3px 3px 60px black;
+}
+.buttons{
+    width: 19vw;
+    height: 25vh;
+}
+h1{
+    color: white;
+    margin-left: 46px;
+  margin-bottom: 19px;
+  font-size: 45px;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+#stop{
+    width: 40px;
+    height: 40px;
+    background-image: url(images/stop.png);
+    background-size: cover;
+    border-radius: 25px;
+    border: 0;
+    background-color: #6c6060;
+    cursor: pointer;
+    
+}
+#start{
+    width: 55px;
+    height: 55px;
+    background-image: url(images/start.png);
+    background-size: cover;
+    border-radius: 35px;
+    border: 0;
+    margin-top: -7px;
+    cursor: pointer;
+}
+#reset{
+width: 40px;
+  height: 40px;
+    background-image: url(images/reset.png);
+    background-size: cover;
+    border-radius: 25px;
+    border: 0;
+    background-color: #6c6060;
+    cursor: pointer;
+}
